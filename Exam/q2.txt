@@ -1,29 +1,35 @@
 // q2 simple calculator using switch case
 
 #include<stdio.h>
+
 int main(){
     int a;
     int b;
     char c;
-    scanf("First Enter Two Number and then Operation to Perform %d %d %c",&a,&b,&c);
+    printf("First Enter Two Number and then Operation to Perform ");
+    scanf("%d %d %c",&a,&b,&c);
 
     switch(c){
         case '+' : 
         printf("The sum of a and b is %d",a+b);
         break;
+        
         case '-' : 
         printf("The subtraction of a and b is %d",a-b);
         break;
+        
         case '*' : 
         printf("The multiply of a and b is %d",a*b);
         break;
+        
         case '/' : 
         printf("The division of a and b is %d",a/b);
         break;
+        
         case '%' : 
         printf("The modulus of a and b is %d",a%b);
         break;
-
+        
         default : printf("Enter valid operation");
     }
     return 0;
