@@ -1,0 +1,22 @@
+// q5 structure of student and print struct
+
+#include<stdio.h>
+
+struct student {
+    int id;
+    char *name;
+    int marks[3];
+};
+
+int main()
+{
+    struct student s1 = {2588030, "Tapan Vachhani" , {70,80,85}};
+
+    printf("%d\n",s1.id);
+    printf("%s\n",s1.name);
+    printf("Mark 1 : %d\n",s1.marks[0]);
+    printf("Mark 2 : %d\n",s1.marks[1]);
+    printf("Mark 3 : %d\n",s1.marks[2]);
+    
+    return 0;
+}

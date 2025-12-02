@@ -1,0 +1,24 @@
+// q3 Fibonacci Series normal loop
+
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("Enter the value of N here : ");
+    scanf("%d",&n);
+
+    int f1 = 0;
+    int f2 = 1;
+
+    if(n==1) return 0;
+    if(n==2) return 1;
+
+    for(int i = 0 ; i < n ;i++)
+    {
+        int nextDig = f1+f2; 
+        printf("%d ",f1);
+        f1 = f2;
+        f2 = nextDig;
+    }
+    return 0;
+}
