@@ -6,7 +6,7 @@ int main()
     int n;
     printf("Enter the value of N here : ");
     scanf("%d",&n);
-
+     
     int f1 = 0;
     int f2 = 1;
 
