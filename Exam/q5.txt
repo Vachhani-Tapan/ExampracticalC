@@ -1,7 +1,6 @@
-// q5 structure of student and print struct
+// q5 structure 
 
 #include<stdio.h>
-
 struct student {
     int id;
     char *name;
