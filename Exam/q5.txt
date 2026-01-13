@@ -10,7 +10,6 @@ struct student {
 int main()
 {
     struct student s1 = {2588030, "Tapan Vachhani" , {70,80,85}};
-
     printf("%d\n",s1.id);
     printf("%s\n",s1.name);
     printf("Mark 1 : %d\n",s1.marks[0]);
