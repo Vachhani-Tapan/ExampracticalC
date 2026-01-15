@@ -6,6 +6,7 @@ struct student {
     char *name;
     int marks[3];
 };
+
 int main()
 {
     struct student s1 = {2588030, "Tapan Vachhani" , {70,80,85}};
