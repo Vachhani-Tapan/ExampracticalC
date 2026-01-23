@@ -9,7 +9,7 @@ public:
                 ans = nums[i];
             }
             if(ans == nums[i]){
-                freq++;
+                freq++; 
             }
             else{
                 freq--;
