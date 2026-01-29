@@ -1,7 +1,7 @@
-// q2 simple calculator using switch case
+// q2 switch case
 
 #include<stdio.h>
-
+    
 int main(){
     int a;
     int b;
